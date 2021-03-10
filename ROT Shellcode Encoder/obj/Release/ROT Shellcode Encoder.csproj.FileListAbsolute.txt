@@ -1,0 +1,7 @@
+C:\Users\Anonymous\source\repos\OSEP Code Snippets\ROT Shellcode Encoder\bin\Release\ROT Shellcode Encoder.exe.config
+C:\Users\Anonymous\source\repos\OSEP Code Snippets\ROT Shellcode Encoder\bin\Release\ROT Shellcode Encoder.exe
+C:\Users\Anonymous\source\repos\OSEP Code Snippets\ROT Shellcode Encoder\bin\Release\ROT Shellcode Encoder.pdb
+C:\Users\Anonymous\source\repos\OSEP Code Snippets\ROT Shellcode Encoder\obj\Release\ROT Shellcode Encoder.csprojAssemblyReference.cache
+C:\Users\Anonymous\source\repos\OSEP Code Snippets\ROT Shellcode Encoder\obj\Release\ROT Shellcode Encoder.csproj.CoreCompileInputs.cache
+C:\Users\Anonymous\source\repos\OSEP Code Snippets\ROT Shellcode Encoder\obj\Release\ROT Shellcode Encoder.exe
+C:\Users\Anonymous\source\repos\OSEP Code Snippets\ROT Shellcode Encoder\obj\Release\ROT Shellcode Encoder.pdb

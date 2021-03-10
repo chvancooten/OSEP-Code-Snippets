@@ -1,0 +1,6 @@
+C:\Users\Anonymous\source\repos\OSEP Code Snippets\Shellcode Process Hollowing\bin\x64\Release\Shellcode Process Hollowing.exe.config
+C:\Users\Anonymous\source\repos\OSEP Code Snippets\Shellcode Process Hollowing\bin\x64\Release\Shellcode Process Hollowing.exe
+C:\Users\Anonymous\source\repos\OSEP Code Snippets\Shellcode Process Hollowing\bin\x64\Release\Shellcode Process Hollowing.pdb
+C:\Users\Anonymous\source\repos\OSEP Code Snippets\Shellcode Process Hollowing\obj\x64\Release\Shellcode Process Hollowing.csproj.CoreCompileInputs.cache
+C:\Users\Anonymous\source\repos\OSEP Code Snippets\Shellcode Process Hollowing\obj\x64\Release\Shellcode Process Hollowing.exe
+C:\Users\Anonymous\source\repos\OSEP Code Snippets\Shellcode Process Hollowing\obj\x64\Release\Shellcode Process Hollowing.pdb

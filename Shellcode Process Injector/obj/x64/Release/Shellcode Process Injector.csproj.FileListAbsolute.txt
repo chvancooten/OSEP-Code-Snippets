@@ -1,0 +1,7 @@
+C:\Users\Anonymous\source\repos\OSEP Code Snippets\Shellcode Process Injector\bin\x64\Release\Shellcode Process Injector.exe.config
+C:\Users\Anonymous\source\repos\OSEP Code Snippets\Shellcode Process Injector\bin\x64\Release\Shellcode Process Injector.exe
+C:\Users\Anonymous\source\repos\OSEP Code Snippets\Shellcode Process Injector\bin\x64\Release\Shellcode Process Injector.pdb
+C:\Users\Anonymous\source\repos\OSEP Code Snippets\Shellcode Process Injector\obj\x64\Release\Shellcode Process Injector.csprojAssemblyReference.cache
+C:\Users\Anonymous\source\repos\OSEP Code Snippets\Shellcode Process Injector\obj\x64\Release\Shellcode Process Injector.csproj.CoreCompileInputs.cache
+C:\Users\Anonymous\source\repos\OSEP Code Snippets\Shellcode Process Injector\obj\x64\Release\Shellcode Process Injector.exe
+C:\Users\Anonymous\source\repos\OSEP Code Snippets\Shellcode Process Injector\obj\x64\Release\Shellcode Process Injector.pdb

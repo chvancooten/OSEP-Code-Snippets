@@ -1,0 +1,9 @@
+C:\Users\Anonymous\source\repos\OSEP Code Snippets\AppLocker Bypass PowerShell Runspace\bin\Release\AppLocker Bypass PowerShell Runspace.exe.config
+C:\Users\Anonymous\source\repos\OSEP Code Snippets\AppLocker Bypass PowerShell Runspace\bin\Release\AppLocker Bypass PowerShell Runspace.exe
+C:\Users\Anonymous\source\repos\OSEP Code Snippets\AppLocker Bypass PowerShell Runspace\bin\Release\AppLocker Bypass PowerShell Runspace.pdb
+C:\Users\Anonymous\source\repos\OSEP Code Snippets\AppLocker Bypass PowerShell Runspace\bin\Release\System.Management.Automation.dll
+C:\Users\Anonymous\source\repos\OSEP Code Snippets\AppLocker Bypass PowerShell Runspace\obj\Release\AppLocker Bypass PowerShell Runspace.csprojAssemblyReference.cache
+C:\Users\Anonymous\source\repos\OSEP Code Snippets\AppLocker Bypass PowerShell Runspace\obj\Release\AppLocker Bypass PowerShell Runspace.csproj.CoreCompileInputs.cache
+C:\Users\Anonymous\source\repos\OSEP Code Snippets\AppLocker Bypass PowerShell Runspace\obj\Release\AppLocker Bypass PowerShell Runspace.csproj.CopyComplete
+C:\Users\Anonymous\source\repos\OSEP Code Snippets\AppLocker Bypass PowerShell Runspace\obj\Release\AppLocker Bypass PowerShell Runspace.exe
+C:\Users\Anonymous\source\repos\OSEP Code Snippets\AppLocker Bypass PowerShell Runspace\obj\Release\AppLocker Bypass PowerShell Runspace.pdb

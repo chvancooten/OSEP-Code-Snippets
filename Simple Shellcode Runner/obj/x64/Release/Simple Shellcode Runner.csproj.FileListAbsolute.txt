@@ -1,0 +1,6 @@
+C:\Users\Anonymous\source\repos\OSEP Code Snippets\Simple Shellcode Runner\bin\x64\Release\Simple Shellcode Runner.exe.config
+C:\Users\Anonymous\source\repos\OSEP Code Snippets\Simple Shellcode Runner\bin\x64\Release\Simple Shellcode Runner.exe
+C:\Users\Anonymous\source\repos\OSEP Code Snippets\Simple Shellcode Runner\bin\x64\Release\Simple Shellcode Runner.pdb
+C:\Users\Anonymous\source\repos\OSEP Code Snippets\Simple Shellcode Runner\obj\x64\Release\Simple Shellcode Runner.csproj.CoreCompileInputs.cache
+C:\Users\Anonymous\source\repos\OSEP Code Snippets\Simple Shellcode Runner\obj\x64\Release\Simple Shellcode Runner.exe
+C:\Users\Anonymous\source\repos\OSEP Code Snippets\Simple Shellcode Runner\obj\x64\Release\Simple Shellcode Runner.pdb

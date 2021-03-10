@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XOR Shellcode Encoder", "XOR Shellcode Encoder.csproj", "{EE64B207-D973-489B-84A8-B718B93E039B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EE64B207-D973-489B-84A8-B718B93E039B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE64B207-D973-489B-84A8-B718B93E039B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE64B207-D973-489B-84A8-B718B93E039B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE64B207-D973-489B-84A8-B718B93E039B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AB26D59A-5BB7-41F5-969C-46504DCF0D8F}
+	EndGlobalSection
+EndGlobal
