@@ -1,6 +1,0 @@
-C:\Users\Anonymous\source\repos\OSEP Code Snippets\PrintSpoofer.NET\bin\Release\PrintSpoofer.NET.exe.config
-C:\Users\Anonymous\source\repos\OSEP Code Snippets\PrintSpoofer.NET\bin\Release\PrintSpoofer.NET.exe
-C:\Users\Anonymous\source\repos\OSEP Code Snippets\PrintSpoofer.NET\bin\Release\PrintSpoofer.NET.pdb
-C:\Users\Anonymous\source\repos\OSEP Code Snippets\PrintSpoofer.NET\obj\Release\PrintSpoofer.NET.csproj.CoreCompileInputs.cache
-C:\Users\Anonymous\source\repos\OSEP Code Snippets\PrintSpoofer.NET\obj\Release\PrintSpoofer.NET.exe
-C:\Users\Anonymous\source\repos\OSEP Code Snippets\PrintSpoofer.NET\obj\Release\PrintSpoofer.NET.pdb

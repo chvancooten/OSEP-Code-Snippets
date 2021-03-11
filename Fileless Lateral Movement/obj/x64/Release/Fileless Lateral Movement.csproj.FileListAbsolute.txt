@@ -1,6 +1,0 @@
-C:\Users\Anonymous\source\repos\Fileless Lateral Movement\bin\x64\Release\Fileless Lateral Movement.exe.config
-C:\Users\Anonymous\source\repos\Fileless Lateral Movement\bin\x64\Release\Fileless Lateral Movement.exe
-C:\Users\Anonymous\source\repos\Fileless Lateral Movement\bin\x64\Release\Fileless Lateral Movement.pdb
-C:\Users\Anonymous\source\repos\Fileless Lateral Movement\obj\x64\Release\Fileless Lateral Movement.csproj.CoreCompileInputs.cache
-C:\Users\Anonymous\source\repos\Fileless Lateral Movement\obj\x64\Release\Fileless Lateral Movement.exe
-C:\Users\Anonymous\source\repos\Fileless Lateral Movement\obj\x64\Release\Fileless Lateral Movement.pdb

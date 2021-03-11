@@ -1,7 +1,0 @@
-C:\Users\Anonymous\source\repos\OSEP Code Snippets\XOR Shellcode Encoder\bin\Release\XOR Shellcode Encoder.exe.config
-C:\Users\Anonymous\source\repos\OSEP Code Snippets\XOR Shellcode Encoder\bin\Release\XOR Shellcode Encoder.exe
-C:\Users\Anonymous\source\repos\OSEP Code Snippets\XOR Shellcode Encoder\bin\Release\XOR Shellcode Encoder.pdb
-C:\Users\Anonymous\source\repos\OSEP Code Snippets\XOR Shellcode Encoder\obj\Release\XOR Shellcode Encoder.csprojAssemblyReference.cache
-C:\Users\Anonymous\source\repos\OSEP Code Snippets\XOR Shellcode Encoder\obj\Release\XOR Shellcode Encoder.csproj.CoreCompileInputs.cache
-C:\Users\Anonymous\source\repos\OSEP Code Snippets\XOR Shellcode Encoder\obj\Release\XOR Shellcode Encoder.exe
-C:\Users\Anonymous\source\repos\OSEP Code Snippets\XOR Shellcode Encoder\obj\Release\XOR Shellcode Encoder.pdb

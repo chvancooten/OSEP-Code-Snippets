@@ -1,6 +1,0 @@
-C:\Users\Anonymous\source\repos\OSEP Code Snippets\MiniDump\bin\x64\Release\MiniDump.exe.config
-C:\Users\Anonymous\source\repos\OSEP Code Snippets\MiniDump\bin\x64\Release\MiniDump.exe
-C:\Users\Anonymous\source\repos\OSEP Code Snippets\MiniDump\bin\x64\Release\MiniDump.pdb
-C:\Users\Anonymous\source\repos\OSEP Code Snippets\MiniDump\obj\x64\Release\MiniDump.csproj.CoreCompileInputs.cache
-C:\Users\Anonymous\source\repos\OSEP Code Snippets\MiniDump\obj\x64\Release\MiniDump.exe
-C:\Users\Anonymous\source\repos\OSEP Code Snippets\MiniDump\obj\x64\Release\MiniDump.pdb
