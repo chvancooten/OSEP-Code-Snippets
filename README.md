@@ -14,6 +14,7 @@ $assem = [System.Reflection.Assembly]::Load($data)
 |--|--|
 | AppLocker Bypass PowerShell Runspace (C#) | Base binary for an applocker bypass using a combination of `CertUtil`, `BitsAdmin`, and `InstallUtil`. See `README.md` for details.|
 | Fileless Lateral Movement (C#) | Wipes Windows Defender signatures on the remote host and uses a PSExec-like method (except using an existing process) to achieve lateral movement. Takes arguments for the target, the target service, and the target binary to run. Note that a non-critical service should be chosen, such as `SensorService`. |
+|Linux Shellcode Encoder (Python) | A utility script to encode C# payloads from Linux, automatically feeding from 'msfvenom'. Supports XOR and ROT encoding with an arbitrary key, and prints the decoding function. Can be used to replace the C# ROT/XOR encoder scripts.|
 |Linux Shellcode Loaders (C) |Various C-based shellcode loaders, including base binaries for library hijacking.|
 |MiniDump (C# & PS1) |A simple binary to Dump LSASS to `C:\Windows\Tasks\lsass.dmp`. Also provided as native PowerShell script.|
 |MSSQL (C#)|An example binary that includes a variety of discussed MSSQL interactions. Change the code to include only what you need.|
