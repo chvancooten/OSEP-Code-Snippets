@@ -55,35 +55,72 @@ namespace XorCoder
                 encoded[i] = (byte)((uint)buf[i] ^ 0xfa);
             }
 
-            StringBuilder hex = new StringBuilder(encoded.Length * 2);
-            int totalCount = encoded.Length;
-            for (int count = 0; count < totalCount; count++)
+            StringBuilder hex;
+
+            if (args.Length > 0)
             {
-                byte b = encoded[count];
+                switch (args[0])
+                {
+                    case "-VBA":
+                        // Printout VBA payload
+                        uint counter = 0;
 
-                if ((count + 1) == totalCount) // Dont append comma for last item
-                {
-                    hex.AppendFormat("0x{0:x2}", b);
-                }
-                else
-                {
-                    hex.AppendFormat("0x{0:x2}, ", b);
-                }
-
-                if ((count + 1) % 15 == 0)
-                {
-                    hex.Append("\n");
+                        hex = new StringBuilder(encoded.Length * 2);
+                        foreach (byte b in encoded)
+                        {
+                            hex.AppendFormat("{0:D3}, ", b);
+                            counter++;
+                            if (counter % 25 == 0)
+                            {
+                                hex.Append("_\n");
+                            }
+                        }
+                        Console.WriteLine($"XORed VBA payload (key: 0xfa):");
+                        Console.WriteLine(hex.ToString());
+                        break;
+                    default:
+                        Console.WriteLine("Accepted arguments: -VBA to print VBA payload instead of C#");
+                        break;
                 }
             }
+            else
+            {
+                // Printout C# payload
+                hex = new StringBuilder(encoded.Length * 2);
+                int totalCount = encoded.Length;
+                for (int count = 0; count < totalCount; count++)
+                {
+                    byte b = encoded[count];
 
-            Console.WriteLine($"XOR payload (key: 0xfa):");
-            Console.WriteLine($"byte[] buf = new byte[{buf.Length}] {{\n{hex}\n}};");
+                    if ((count + 1) == totalCount) // Dont append comma for last item
+                    {
+                        hex.AppendFormat("0x{0:x2}", b);
+                    }
+                    else
+                    {
+                        hex.AppendFormat("0x{0:x2}, ", b);
+                    }
 
-            //// Decode the XOR payload
-            //for (int i = 0; i < buf.Length; i++)
-            //{
-            //    buf[i] = (byte)((uint)buf[i] ^ 0xfa);
-            //}
+                    if ((count + 1) % 15 == 0)
+                    {
+                        hex.Append("\n");
+                    }
+                }
+
+                Console.WriteLine($"XORed C# payload (key: 0xfa):");
+                Console.WriteLine($"byte[] buf = new byte[{buf.Length}] {{\n{hex}\n}};");
+            }
+
+
+
+
+            // Decode the XOR payload
+            /*
+            for (int i = 0; i < buf.Length; i++)
+            {
+                buf[i] = (byte)((uint)buf[i] ^ 0xfa);
+            }
+            */
 
         }
     }
